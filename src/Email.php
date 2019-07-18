@@ -1,7 +1,6 @@
 <?php
 namespace clonelin\email;
-use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer;
 class Email {
     protected $options;
     protected $data;
