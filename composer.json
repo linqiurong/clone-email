@@ -1,0 +1,19 @@
+{
+    "name": "clone/email",
+    "authors": [
+        {
+            "name": "clone",
+            "email": "bjbs08@qq.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "clonelin\\email\\": "src/",
+            "clonelin\\email\\library\\": "library/"
+        },
+        "files": []
+    }
+}
